@@ -20,3 +20,11 @@ for i in studmark
     students[keyval] = upd
 }
 print(students)
+var physicsM = eachstudent.components(separatedBy: "physics:")
+    var physicsMark = physicsM[1].components(separatedBy: ",")
+    let chemistryM = eachstudent.components(separatedBy: "chemistry:")
+    let chemistryMark = chemistryM[1].components(separatedBy: ",")
+    let mathsM = eachstudent.components(separatedBy: "maths:")
+    let mathsMark  = mathsM[1].components(separatedBy: ",")
+    let malayalam = eachstudent.components(separatedBy: "malayalam:")
+    print(malayalam)
